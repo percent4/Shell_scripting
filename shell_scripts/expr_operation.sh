@@ -18,3 +18,9 @@ var1=100
 var2=45
 var3=$[$var1 / $var2]
 echo "$var1/$var2 = $var3."
+
+# using let for math operation
+var1=50
+var2=40
+let var3=$var1*$var2
+echo "using let command, the result is: " $var3
